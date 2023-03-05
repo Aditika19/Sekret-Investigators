@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <!-- Entrance Animations CSS -->
+    <i class="light-mode-icon fa fa-moon text-dark"></i>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
+  </head>
+  <body>
+    <!-- Top bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-end">
+            <a href="tel:777-567-8765" class="btn btn-lg btn-mobile mt-3 ">777-567-8765</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation
+Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="why.html">Why Sekret</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <button id="mode-toggle">
+                      <i class="light-mode-icon fa fa-moon text-dark"></i>
+                      <i class="dark-mode-icon fa fa-sun text-light"></i>
+                    
+                  
+                </button>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- contact -->
+    <div class="contact reveal fade-bottom  container">
+        <h1 class="text-center">Contact Us  </h1>
+        <form action="" method="post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" class="form-control">
+            </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" class="form-control">
+            </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control">
+            </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" class="form-control">
+            </div>
+            </div>
+          </div>
+            
+            
+            
+            
+            <div class="mb-3">
+                <label for="message">Describe Your Needs</label>
+                <textarea type="text" id="message" rows="4" name="message" class="form-control">
+                    </textarea>
+            </div>
+            
+            <div class="mb-3  ">
+                <label for="toc"><input type="checkbox" name="toc" id="toc" class="form-check-inline">I accept the <a href="#" class="td-underline">Terms & Conditions</a></label>
+            </div>
+            <div class="mb-3 text-center">
+                <button type="submit"   class=" btn btn-lg btn-primary w-75 mx-auto">Leave Message</button>
+
+            </div>
+        </form>
+        <div class="contact-info">
+            <p>
+                Our team has the experience, intuition, judgment, and professionalism required to navigate you through uncertain times and make critical and informed decisions about your future.
+                </p>
+                <p>
+We are available 24/7
+</p>
+<p class="mb-0">
+Call 774-567-8765
+</p>
+<p class="mt-0">
+info@sekretinvestegators.com
+</p>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- contact today -->
+    <div class="c-today reveal fade-left">
+        <div class="row">
+            <div class="col-md-6 ms-auto text-center">
+                <h1 class="text-center">Contact Us Today</h1>
+                <h4 class="text-white mt-5">Contact Team Leader Mark Spencer, For a Confidential Consultation on 778-555-4444</h4>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2023 Sekret Investigators</p>
+              <ul class="list-inline text-md-center m-0">
+                <li class="list-inline-item"><a href="#">Sitemap</a></li>
+                <li class="list-inline-item"><a href="#">Disclaimer</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Terms and Conditions</a></li>
+                <li class="list-inline-item"><a href="#">Facebook</a></li>
+                <li class="list-inline-item"><a href="#">Twitter</a></li>
+                <li class="list-inline-item"><a href="#">Youtube</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+    <script>
+      $(document).ready(function() {
+  // Select the form and prevent the default form submission
+  $('form').submit(function(event) {
+    $(".error").remove();
+    event.preventDefault();
+
+    // Select the input fields to validate
+    var firstName = $('#fname');
+    var lastName = $('#lname');
+    var email = $('#email');
+    var phone = $('#phone');
+    var describeNeeds = $('#message');
+    var toc = $('#toc');
+    
+    // Set a flag to keep track of validation status
+    var isValid = true;
+
+    // Validate the first name field
+    if (firstName.val().trim() === '') {
+      firstName.after('<span class="error">Please enter your first name.</span>');
+      isValid = false;
+    }
+
+    // Validate the last name field
+    if (lastName.val().trim() === '') {
+      lastName.after('<span class="error">Please enter your last name.</span>');
+      isValid = false;
+    }
+
+    // Validate the email field
+    var emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (email.val().trim() === '') {
+      email.after('<span class="error">Please enter your email address.</span>');
+      isValid = false;
+    } else if (!emailPattern.test(email.val())) {
+      email.after('<span class="error">Please enter a valid email address.</span>');
+      isValid = false;
+    }
+
+    // Validate the phone field
+    var phonePattern = /^[0-9\-]+$/;
+    if (phone.val().trim() === '') {
+      phone.after('<span class="error">Please enter your phone number.</span>');
+      isValid = false;
+    } else if (!phonePattern.test(phone.val())) {
+      phone.after('<span class="error">Please enter a valid phone number</span>');
+      isValid = false;
+    }
+
+    // Validate the describe needs field
+    if (describeNeeds.val().trim() === '' ||describeNeeds.val().length <1) {
+      describeNeeds.after('<span class="error">Please describe your needs.</span>');
+      isValid = false;
+    }
+
+    // Validate the toc checkbox
+    if (!toc.is(':checked')) {
+      toc.parent().parent().after('<span class="error">You need to accept the terms and conditions.</span>');
+      isValid = false;
+    }
+
+    // If all fields are valid, submit the form
+    if (isValid) {
+      // $('form').unbind('submit').submit();
+      Swal.fire('Thank You!','We will get in touch with you soon!','success');
+    }
+  });
+
+  // Remove error message on focus
+  $('input, textarea').focus(function() {
+    $(this).next('.error').remove();
+  });
+});
+    </script>
+  </body>
+</html>
