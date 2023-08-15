@@ -15,4 +15,5 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aditika19&show_icons=true&locale=en&layout=compact" alt="aditika19" /></p>
 
 <h3>Screen shot</h3>
-![ss](https://github.com/Aditika19/Sekret-Investigators/assets/119698465/6cd89da2-896e-4e05-bf86-b1594c1d6364)
+
+![ss](https://github.com/Aditika19/Sekret-Investigators/assets/119698465/d77daf1f-8c7d-4a49-b46d-75493e933133)
